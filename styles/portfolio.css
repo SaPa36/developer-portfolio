@@ -89,6 +89,11 @@ nav a {
 
 /* main section style */
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* about section style */
 
 .about {
@@ -96,6 +101,7 @@ nav a {
     border-radius: 10px; 
 background: rgb(255, 248, 243);
 margin: 130px 0;
+
 }
 
 .section-title {
@@ -114,4 +120,13 @@ font-weight: 400;
 line-height: 30px;
 letter-spacing: 0%;
 text-align: center;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
 }
